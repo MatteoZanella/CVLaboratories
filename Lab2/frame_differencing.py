@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # Store frames
 frames = []
-nf = 1
+nf = 2
 threshold = 50
 
 for i in range(750):

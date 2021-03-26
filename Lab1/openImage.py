@@ -1,5 +1,8 @@
 import cv2
 
-image = cv2.imread("/home/mmlab/workspace/CVLaboratories/material/Google.jpg",1)
-cv2.imshow('image',image)
+# Open image
+image = cv2.imread("../material/Google.jpg", 1)
+
+# Show image
+cv2.imshow('Hello world', image)
 cv2.waitKey(0)
